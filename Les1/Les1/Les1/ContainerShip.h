@@ -1,6 +1,7 @@
 #pragma once
 #include "ShippingContainer.h"
 #include <string>
+#include <iostream>
 using namespace std;
 
 class ContainerShip{
@@ -12,6 +13,9 @@ public:
 	int getLoad() const;
 	int getNumberOfContainers() const;
 	ContainerShip operator+(const ShippingContainer& container) const;
+	ContainerShip& operator=(const ContainerShip& ship);
+	ContainerShip& operator+=(const ShippingContainer& container);
+
 
 private:
 	string name;

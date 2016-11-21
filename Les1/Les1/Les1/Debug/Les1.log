@@ -1,2 +1,3 @@
-﻿  main.cpp
-f:\school\hku\jaar 2\blok 2\heavyoop2\heavyoopadvanced\les1\les1\les1\main.cpp : fatal error C1041: cannot open program database 'F:\School\HKU\Jaar 2\Blok 2\HeavyOOP2\HeavyOOPAdvanced\Les1\Les1\Les1\Debug\vc140.pdb'; if multiple CL.EXE write to the same .PDB file, please use /FS
+﻿  ContainerShip.cpp
+  Les1.vcxproj -> F:\School\HKU\Jaar 2\Blok 2\HeavyOOP2\HeavyOOPAdvanced\Les1\Les1\Debug\Les1.exe
+  Les1.vcxproj -> F:\School\HKU\Jaar 2\Blok 2\HeavyOOP2\HeavyOOPAdvanced\Les1\Les1\Debug\Les1.pdb (Full PDB)

@@ -1,8 +1,7 @@
 #pragma once
 #include <string>
 using namespace std;
-class Transaction
-{
+class Transaction {
 public:
 	Transaction(bool type, int amount, string date);
 	bool getType() const;

@@ -1,6 +1,7 @@
 #include <iostream>
 #include "BankAccount.h"
 #include "Transaction.h"
+#include "Config.h"
 
 int main() {
 
@@ -12,7 +13,17 @@ int main() {
 	cout << account.getName() << " MONEY = " << account.getSaldo() << endl;
 	account.TransactionHistory();
 	
+	Config config = Config("SimpleConfig");
+	config.put("key1", "value1");
+	config.put("key2", "value2");
+
+	cout << config["key1"] << endl;
+	cout << config["key2"] << endl;
+	cout << config["key3"] << endl;
+	cout << config << endl;
 	string input;
 	cin >> input;
+
+	
 	return 0;
 }

@@ -12,6 +12,8 @@ int main() {
 	cout << ship.getName() << " Load = " << ship.getLoad() << endl;
 	ship = ship + container1;
 	cout << ship.getName() << " Load = " << ship.getLoad() << endl;
+	ship += container2;
+	cout << ship.getName() << " Load = " << ship.getLoad() << endl;
 
 	string input;
 	cin >> input;
