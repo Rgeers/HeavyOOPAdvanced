@@ -1,5 +1,7 @@
-﻿  Config.cpp
-f:\school\hku\jaar 2\blok 2\heavyoop2\heavyoopadvanced\les1\huiswerkles1\huiswerkles1\config.cpp(13): warning C4018: '<': signed/unsigned mismatch
-f:\school\hku\jaar 2\blok 2\heavyoop2\heavyoopadvanced\les1\huiswerkles1\huiswerkles1\config.cpp(23): warning C4018: '<': signed/unsigned mismatch
+﻿  Main.cpp
+  Config.cpp
+f:\school\hku\jaar 2\blok 2\heavyoop2\heavyoopadvanced\les1\huiswerkles1\huiswerkles1\config.cpp(14): warning C4018: '<': signed/unsigned mismatch
+f:\school\hku\jaar 2\blok 2\heavyoop2\heavyoopadvanced\les1\huiswerkles1\huiswerkles1\config.cpp(24): warning C4018: '<': signed/unsigned mismatch
+  Generating Code...
   HuiswerkLes1.vcxproj -> F:\School\HKU\Jaar 2\Blok 2\HeavyOOP2\HeavyOOPAdvanced\Les1\HuiswerkLes1\Debug\HuiswerkLes1.exe
   HuiswerkLes1.vcxproj -> F:\School\HKU\Jaar 2\Blok 2\HeavyOOP2\HeavyOOPAdvanced\Les1\HuiswerkLes1\Debug\HuiswerkLes1.pdb (Full PDB)

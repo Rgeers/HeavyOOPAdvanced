@@ -1,4 +1,5 @@
 #include "Config.h"
+#include "BankAccount.h"
 
 Config::Config(const string & name) {
 	this->name = name;

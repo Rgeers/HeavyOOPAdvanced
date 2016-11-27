@@ -10,6 +10,7 @@ public:
 	int getNumberOfTransactions() const;
 	BankAccount operator+(const Transaction& transaction) const;
 	BankAccount operator-(const Transaction& transaction) const;
+	//BankAccount operator<<(const Transaction & transaction) const;
 private:
 	int saldo;
 	string name;

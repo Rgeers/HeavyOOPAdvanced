@@ -33,3 +33,8 @@ BankAccount BankAccount::operator+(const Transaction& transaction) const {
 BankAccount BankAccount::operator-(const Transaction& transaction) const {
 	return BankAccount(saldo - transaction.getAmount(), name, numberOfTransactions + 1);
 }
+/*
+BankAccount BankAccount::operator<<(const Transaction& transaction) const {
+	return BankAccount(saldo, name, numberOfTransactions);
+}
+*/

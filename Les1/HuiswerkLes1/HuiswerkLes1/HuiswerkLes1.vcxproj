@@ -154,6 +154,7 @@
   <ItemGroup>
     <ClInclude Include="BankAccount.h" />
     <ClInclude Include="Config.h" />
+    <ClInclude Include="Main.h" />
     <ClInclude Include="Transaction.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
